@@ -41,9 +41,9 @@
 			"request": "launch",
 			// "console": "internalConsole",
 			"program": "${workspaceFolder}/pipex",
-			"args": ["in.txt", "cat", "wc -l", "vsout" ],
-			// "args": ["in.txt cat \"wc -l\" vsout"],
-			// "args": ["in.txt", "cat", "wc", "vsout"],
+			"args": [
+
+			],
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],
@@ -79,8 +79,9 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${workspaceFolder}/pipex",
-			"args": ["in.txt", "cat", "wc", "vsout"],
-			// "args": [""],
+			"args": [
+
+			],
 			"stopAtEntry": false,
 			"cwd": "${fileDirname}",
 			"environment": [],
